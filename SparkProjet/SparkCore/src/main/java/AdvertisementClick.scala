@@ -1,5 +1,7 @@
 import org.apache.spark.{SparkConf, SparkContext}
 
+//TOP3 counting the number of clicks on ads in each province
+
 object AdvertisementClick {
   def main(args: Array[String]): Unit = {
     //1.creaye Sparkconf and Sparkcontetx
