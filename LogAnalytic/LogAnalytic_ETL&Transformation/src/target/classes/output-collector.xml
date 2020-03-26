@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>collector_new_install_user</name>
+		<value>transformation.mr.newinstalluser.StatsUserNewInstallUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_new_install_user</name>
+		<value>transformation.mr.newinstalluser.StatsDeviceBrowserNewInstallUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_active_user</name>
+		<value>transformation.mr.activeuser.ActiveUserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_active_user</name>
+		<value>transformation.mr.activeuser.ActiveUserBrowserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_active_member</name>
+		<value>transformation.mr.activemember.ActiveMemberCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_active_member</name>
+		<value>transformation.mr.activemember.ActiveMemberBrowserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_new_member</name>
+		<value>transformation.mr.newmember.NewInstallMemberCollector</value>
+	</property>
+
+	<property>
+		<name>collector_browser_new_member</name>
+		<value>transformation.mr.newmember.NewInstallMemberBrowserCollector</value>
+	</property>
+
+	<property>
+		<name>collector_insert_member_info</name>
+		<value>transformation.mr.newmember.NewInstallMemberInsertCollector</value>
+	</property>
+</configuration>

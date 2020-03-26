@@ -1,0 +1,6 @@
+当需要添加其他模块时，如何修改？
+
+1、编写mapper、reducer、runner
+2、添加额外的单一维度对象&维度对象组合
+3、编写collector类
+4、修改output-collector.xml和query-mapping.xml对应属性
